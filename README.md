@@ -23,7 +23,8 @@
 ## 🛤️ Trilha Atual
 
 <!-- Escolha uma trilha e registre aqui -->
-> 🎯 **Trilha escolhida:** **Sei la, todas? kk** 
+> 🎯 **Trilha escolhida:** *Sei la, todas? kk*
+> 
 > 📅 **Início:** 25/04/2026  
 > ⏱️ **Meta de horas/dia:** 2 horas ou mais por dia.
 
