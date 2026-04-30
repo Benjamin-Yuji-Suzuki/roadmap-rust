@@ -2,6 +2,8 @@
 
 > Meu progresso pessoal pelos 100 tópicos do Roadmap Rust Supremo v9.
 > Cada tópico concluído tem anotações e/ou projeto no diretório correspondente.
+>
+> O objetivo do ROADMAP é utilizar IA exclusivamente para auxiliar nos estudos. Logo, qualquer projeto feito, será feito lendo documentos e matérias oferecido pela IA. Zero assistencia em fazer codigo.
 
 ---
 
