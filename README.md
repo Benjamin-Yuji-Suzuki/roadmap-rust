@@ -1,16 +1,17 @@
 # 🦀 Roadmap Rust — Edição Suprema
 
-> Meu progresso pessoal pelos 100 tópicos do Roadmap Rust Supremo v9.
+> Meu projeto pessoal de progresso contínuo pelos tópicos do Roadmap Rust.
 > Cada tópico concluído tem anotações e/ou projeto no diretório correspondente.
 >
-> O objetivo do ROADMAP é utilizar IA exclusivamente para auxiliar nos estudos. Logo, qualquer projeto feito, será feito lendo documentos e matérias oferecido pela IA. Zero assistencia em fazer codigo.
+> O objetivo do ROADMAP é utilizar IA exclusivamente para auxiliar nos estudos. Logo, qualquer projeto feito, será feito lendo documentos e matérias oferecidos pela IA. Zero assistência em fazer código.
 
 ---
 
 > [!IMPORTANT]
-> **Aviso de Autoria:** Este projeto foi idealizado, estruturado e validado por **Benjamin**. 
-> O desenvolvimento da documentação contaram com o auxílio de Inteligência Artificial (Claude.ai/FREE)
+> **Aviso de Autoria:** Este projeto foi idealizado, estruturado e validado por **Benjamin**.
+> O desenvolvimento da documentação contou com o auxílio de Inteligência Artificial (Hermes Agent/Claude.ai/FREE)
 
+---
 
 ## 📊 Progresso Geral
 
@@ -20,10 +21,13 @@
 | 🔵 Nível 2 — Intermediário | 40 | 0 | `░░░░░░░░░░` 0% |
 | 🟠 Nível 3 — Avançado | 20 | 0 | `░░░░░░░░░░` 0% |
 | 🔴 Nível 4 — Hardcore | 20 | 0 | `░░░░░░░░░░` 0% |
-| **Total** | **100** | **0** | `░░░░░░░░░░` **0%** |
+| 🔥 Tópicos Malucos | ∞ | 0 | `░░░░░░░░░░` 0% |
+| **Total** | **100+** | **0** | `░░░░░░░░░░` **0%** |
 
-> **Dica:** Atualize os contadores e barras de progresso conforme for marcando os tópicos abaixo.  
+> **Dica:** Atualize os contadores e barras de progresso conforme for marcando os tópicos abaixo.
 > Barra: cada `█` representa 10%. Ex: 3/20 concluídos → `█░░░░░░░░░` 15%
+>
+> **Nota:** O roadmap é um documento vivo. Tópicos malucos podem ser adicionados a qualquer momento!
 
 ---
 
@@ -31,17 +35,16 @@
 
 <!-- Escolha uma trilha e registre aqui -->
 > 🎯 **Trilha escolhida:** *Sei la, todas? kk*
-> 
+>
 > 📅 **Início:** 25/04/2026
-> 
+>
 > ⏱️ **Meta de horas/dia:** 2 horas ou mais por dia.
-> 
 
 ---
 
 ## 🟢 Nível 1 — Iniciante (`#1` ao `#20`)
 
-> Faixa total: 197–365h (média ~282h)  
+> Faixa total: 197–365h (média ~282h)
 > Pré-requisito: nenhum. Comece pelo #1 e avance em ordem.
 
 - [ ] **#1** — [CLI — Linha de Comando](nivel-1-iniciante/01-cli.md) _(10–20h)_
@@ -69,7 +72,7 @@
 
 ## 🔵 Nível 2 — Intermediário (`#21` ao `#60`)
 
-> Faixa total: 1300–2500h (média ~1900h)  
+> Faixa total: 1300–2500h (média ~1900h)
 > Pré-requisito: Nível 1 completo (ou ao menos #1–#10).
 
 - [ ] **#21** — [Desktop Apps (Tauri v2)](nivel-2-intermediario/21-tauri.md) _(25–45h)_
@@ -117,7 +120,7 @@
 
 ## 🟠 Nível 3 — Avançado (`#61` ao `#80`)
 
-> Faixa total: 1190–2120h (média ~1655h)  
+> Faixa total: 1190–2120h (média ~1655h)
 > Pré-requisito: sólida base nos Níveis 1 e 2. Escolha pela trilha, não pela ordem.
 
 - [ ] **#61** — [eBPF (Kernel Observability)](nivel-3-avancado/61-ebpf.md) _(80–150h)_
@@ -145,7 +148,7 @@
 
 ## 🔴 Nível 4 — Hardcore (`#81` ao `#100`)
 
-> Faixa total: 3000–6000h (média ~4500h)  
+> Faixa total: 3000–6000h (média ~4500h)
 > Fronteiras da engenharia. Alguns desses tópicos são carreiras inteiras.
 
 - [ ] **#81** — [Análise AST Profunda (Compiladores)](nivel-4-hardcore/81-ast-profunda.md) _(150–300h)_
@@ -171,11 +174,63 @@
 
 ---
 
+## 🔥 Tópicos Malucos (Além dos 100)
+
+> Tópicos que não cabem nos 100 tradicionais mas são essenciais para o mercado sênior/staff.
+> Adicione conforme sua curiosidade e oportunidades de emprego aparecerem.
+
+### 🔹 Parsing Binário & Engenharia Reversa
+
+- [ ] **#M1** — [nom — Parser Combinators Avançado](topicos-malucos/parsing/m1-nom.md) _(30–60h)_
+- [ ] **#M2** — [Kaitai Struct — Formatos Binários](topicos-malucos/parsing/m2-kaitai.md) _(20–40h)_
+- [ ] **#M3** — [Engenharia Reversa com Ghidra](topicos-malucos/reverse/m3-ghidra.md) _(40–80h)_
+- [ ] **#M4** — [ImHex — Hex Editor com Pattern Highlighting](topicos-malucos/reverse/m4-imhex.md) _(15–30h)_
+- [ ] **#M5** — [Binary Ninja / IDA Pro — Disassemblers](topicos-malucos/reverse/m5-disassemblers.md) _(40–80h)_
+
+### 🔹 Fuzzing & Segurança de Parsers
+
+- [ ] **#M6** — [cargo-fuzz + libFuzzer — Coverage-Guided Fuzzing](topicos-malucos/fuzzing/m6-cargo-fuzz.md) _(25–50h)_
+- [ ] **#M7** — [afl.rs — Fuzzing com AFL](topicos-malucos/fuzzing/m7-afl.md) _(20–40h)_
+- [ ] **#M8** — [Structure-Aware Fuzzing](topicos-malucos/fuzzing/m8-structure-aware.md) _(30–60h)_
+- [ ] **#M9** — [Property-Based Testing (proptest)](topicos-malucos/fuzzing/m9-proptest.md) _(15–30h)_
+
+### 🔹 Tecnologia 3D & Geometria
+
+- [ ] **#M10** — [glTF 2.0 — Parser e Renderização](topicos-malucos/3d/m10-gltf.md) _(40–80h)_
+- [ ] **#M11** — [nalgebra / glam — Álgebra Linear para Games](topicos-malucos/3d/m11-algebra.md) _(25–50h)_
+- [ ] **#M12** — [Khronos PBR — Physically Based Rendering](topicos-malucos/3d/m12-pbr.md) _(30–60h)_
+- [ ] **#M13** — [Mesh Processing — Geometria Computacional](topicos-malucos/3d/m13-mesh.md) _(40–80h)_
+- [ ] **#M14** — [Skeletons e Animação 3D](topicos-malucos/3d/m14-animation.md) _(35–70h)_
+
+### 🔹 Tooling & Low Level
+
+- [ ] **#M15** — [perf — Hardware Counters e Profiling](topicos-malucos/tooling/m15-perf.md) _(20–40h)_
+- [ ] **#M16** — [strace / ltrace — Syscall Tracing](topicos-malucos/tooling/m16-strace.md) _(15–30h)_
+- [ ] **#M17** — [GDB / LLDB — Debugging Avançado](topicos-malucos/tooling/m17-gdb.md) _(25–50h)_
+- [ ] **#M18** — [objdump / readelf — Análise de Binários](topicos-malucos/tooling/m18-objdump.md) _(15–30h)_
+
+### 🔥 Mojo (Diferencial de Altíssimo Peso)
+
+- [ ] **#M19** — [Mojo Quickstart — Básico da Linguagem](topicos-malucos/mojo/m19-mojo-basico.md) _(20–40h)_
+- [ ] **#M20** — [Mojo GPU Programming — Kernels com MAX](topicos-malucos/mojo/m20-mojo-gpu.md) _(40–80h)_
+- [ ] **#M21** — [Mojo SIMD — Vetorização](topicos-malucos/mojo/m21-mojo-simd.md) _(25–50h)_
+- [ ] **#M22** — [Mojo HPC — Workloads Numéricos](topicos-malucos/mojo/m22-mojo-hpc.md) _(35–70h)_
+
+### 🔹 Rust Avançado (unsafe, FFI, Memory)
+
+- [ ] **#M23** — [The Rustonomicon — unsafe Rust](topicos-malucos/rust/m23-unsafe.md) _(40–80h)_
+- [ ] **#M24** — [FFI Omnibus — Interop C/Python/Ruby](topicos-malucos/rust/m24-ffi.md) _(30–60h)_
+- [ ] **#M25** — [bindgen / cxx — Bindings C/C++](topicos-malucos/rust/m25-bindings.md) _(25–50h)_
+- [ ] **#M26** — [Custom Memory Allocators](topicos-malucos/rust/m26-allocators.md) _(35–70h)_
+
+---
+
 ## 📂 Estrutura do Repositório
 
 ```
 roadmap-rust/
 ├── README.md                    ← este arquivo (checklist geral)
+├── roadmap_rust_supremo_v10.md  ← guia completo com 100+ tópicos
 ├── nivel-1-iniciante/
 │   ├── 01-cli.md
 │   ├── 02-sqlite.md
@@ -183,13 +238,21 @@ roadmap-rust/
 ├── nivel-2-intermediario/
 ├── nivel-3-avancado/
 ├── nivel-4-hardcore/
+├── topicos-malucos/             ← tópicos além dos 100 (parsing, fuzzing, 3D, etc.)
+│   ├── parsing/
+│   ├── reverse/
+│   ├── fuzzing/
+│   ├── 3d/
+│   ├── tooling/
+│   ├── mojo/
+│   └── rust/
 └── projetos/                    ← projetos práticos criados durante o estudo
     └── .gitkeep
 ```
 
 ---
 
-## 📚 Recursos
+## 📚 Recursos Principais
 
 - [The Rust Programming Language](https://doc.rust-lang.org/book/)
 - [Rustlings](https://github.com/rust-lang/rustlings)
@@ -198,6 +261,12 @@ roadmap-rust/
 - [Tokio Tutorial](https://tokio.rs/tokio/tutorial)
 - [Learn wgpu](https://sotrh.github.io/learn-wgpu/)
 - [Crafting Interpreters](https://craftinginterpreters.com/)
+- [Comprehensive Rust (Google)](https://google.github.io/comprehensive-rust/)
+- [nom — Parser Combinators](https://docs.rs/nom/latest/nom/)
+- [Rust Fuzz Book](https://rust-fuzz.github.io/book/)
+- [glTF Specification](https://www.khronos.org/gltf/)
+- [Ghidra (NSA)](https://ghidra-sre.org/)
+- [Mojo Language](https://docs.modular.com/mojo/)
 
 ---
 
