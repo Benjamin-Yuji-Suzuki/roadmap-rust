@@ -68,79 +68,79 @@ Currículo **não basta**. Exigem GitHub/GitLab com projetos próprios, bibliote
 
 | Recurso | Nível | Link |
 |---------|-------|------|
-| **nom** — Parser combinators (oficial) | Intermediário | [docs.rs/nom/latest/nom](https://docs.rs/nom/latest/nom/) |
-| **nom recipes** — Padrões comuns de parsing | Intermediário | [github.com/rust-bakery/nom/recipes](https://github.com/rust-bakery/nom/blob/main/doc/choosing_a_combinator.md) |
-| **Kaitai Struct** — Linguagem declarativa para formatos binários | Intermediário | [kaitai.io](https://kaitai.io/) |
-| **Kaitai Struct Docs** — Tutorial e referência | Intermediário | [doc.kaitai.io](https://doc.kaitai.io/) |
-| **Parsing binary data with nom** — Guia prático | Avançado | [github.com/rust-bakery/nom/tree/main/doc](https://github.com/rust-bakery/nom/tree/main/doc) |
+| **[nom](https://docs.rs/nom/latest/nom/)** — Parser combinators (oficial) | Intermediário | [docs.rs](https://docs.rs/nom/latest/nom/) |
+| **[nom recipes](https://github.com/rust-bakery/nom/blob/main/doc/choosing_a_combinator.md)** — Padrões comuns de parsing | Intermediário | [github.com](https://github.com/rust-bakery/nom/blob/main/doc/choosing_a_combinator.md) |
+| **[Kaitai Struct](https://kaitai.io/)** — Linguagem declarativa para formatos binários | Intermediário | [kaitai.io](https://kaitai.io/) |
+| **[Kaitai Struct Docs](https://doc.kaitai.io/)** — Tutorial e referência | Intermediário | [doc.kaitai.io](https://doc.kaitai.io/) |
+| **[Parsing binary data with nom](https://github.com/rust-bakery/nom/tree/main/doc)** — Guia prático | Avançado | [github.com](https://github.com/rust-bakery/nom/tree/main/doc) |
 
 ### 🔹 Fuzzing
 
 | Recurso | Nível | Link |
 |---------|-------|------|
-| **Rust Fuzz Book** — Guia oficial de fuzzing com cargo-fuzz | Intermediário | [rust-fuzz.github.io/book](https://rust-fuzz.github.io/book/) |
-| **cargo-fuzz** — CLI para libFuzzer | Intermediário | [github.com/rust-fuzz/cargo-fuzz](https://github.com/rust-fuzz/cargo-fuzz) |
-| **libFuzzer** — LLVM fuzzer (base do cargo-fuzz) | Avançado | [llvm.org/docs/LibFuzzer](http://llvm.org/docs/LibFuzzer.html) |
-| **afl.rs** — Fuzzing com AFL (alternativa) | Avançado | [github.com/rust-fuzz/afl.rs](https://github.com/rust-fuzz/afl.rs) |
-| **Structure-Aware Fuzzing** — Fuzzing com conhecimento de estrutura | Avançado | [rust-fuzz.github.io/book/structure-aware-fuzzing](https://rust-fuzz.github.io/book/structure-aware-fuzzing.html) |
+| **[Rust Fuzz Book](https://rust-fuzz.github.io/book/)** — Guia oficial de fuzzing com cargo-fuzz | Intermediário | [rust-fuzz.github.io](https://rust-fuzz.github.io/book/) |
+| **[cargo-fuzz](https://github.com/rust-fuzz/cargo-fuzz)** — CLI para libFuzzer | Intermediário | [github.com](https://github.com/rust-fuzz/cargo-fuzz) |
+| **[libFuzzer](http://llvm.org/docs/LibFuzzer.html)** — LLVM fuzzer (base do cargo-fuzz) | Avançado | [llvm.org](http://llvm.org/docs/LibFuzzer.html) |
+| **[afl.rs](https://github.com/rust-fuzz/afl.rs)** — Fuzzing com AFL (alternativa) | Avançado | [github.com](https://github.com/rust-fuzz/afl.rs) |
+| **[Structure-Aware Fuzzing](https://rust-fuzz.github.io/book/cargo-fuzz/structure-aware-fuzzing.html)** — Fuzzing com conhecimento de estrutura | Avançado | [rust-fuzz.github.io](https://rust-fuzz.github.io/book/cargo-fuzz/structure-aware-fuzzing.html) |
 
 ### 🔹 Tecnologia 3D / Geometria
 
 | Recurso | Nível | Link |
 |---------|-------|------|
-| **glTF Specification** — Padrão Khronos Group (JPEG of 3D) | Intermediário | [khronos.org/gltf](https://www.khronos.org/gltf/) |
-| **glTF 2.0 Quick Reference** — Guia visual de bolso | Intermediário | [khronos.org/files/gltf20-reference-guide.pdf](https://www.khronos.org/files/gltf20-reference-guide.pdf) |
-| **nalgebra** — Álgebra linear para gráficos e física | Intermediário | [docs.rs/nalgebra/latest/nalgebra](https://docs.rs/nalgebra/latest/nalgebra/) |
-| **glam** — Álgebra linear rápida para games (alternativa ao nalgebra) | Intermediário | [docs.rs/glam/latest/glam](https://docs.rs/glam/latest/glam/) |
-| **gltf crate** — Parser glTF para Rust | Intermediário | [docs.rs/gltf/latest/gltf](https://docs.rs/gltf/latest/gltf/) |
-| **Khronos PBR** — Physically Based Rendering (materiais realistas) | Avançado | [khronos.org/gltf/pbr](https://www.khronos.org/gltf/) |
+| **[glTF Specification](https://www.khronos.org/gltf/)** — Padrão Khronos Group (JPEG of 3D) | Intermediário | [khronos.org](https://www.khronos.org/gltf/) |
+| **[glTF 2.0 Quick Reference](https://www.khronos.org/files/gltf20-reference-guide.pdf)** — Guia visual de bolso | Intermediário | [khronos.org](https://www.khronos.org/files/gltf20-reference-guide.pdf) |
+| **[nalgebra](https://docs.rs/nalgebra/latest/nalgebra/)** — Álgebra linear para gráficos e física | Intermediário | [docs.rs](https://docs.rs/nalgebra/latest/nalgebra/) |
+| **[glam](https://docs.rs/glam/latest/glam/)** — Álgebra linear rápida para games (alternativa ao nalgebra) | Intermediário | [docs.rs](https://docs.rs/glam/latest/glam/) |
+| **[gltf crate](https://docs.rs/gltf/latest/gltf/)** — Parser glTF para Rust | Intermediário | [docs.rs](https://docs.rs/gltf/latest/gltf/) |
+| **[Khronos PBR](https://www.khronos.org/gltf/)** — Physically Based Rendering (materiais realistas) | Avançado | [khronos.org](https://www.khronos.org/gltf/) |
 
 ### 🔹 Engenharia Reversa / Tooling
 
 | Recurso | Nível | Link |
 |---------|-------|------|
-| **Ghidra** — Framework de engenharia reversa da NSA | Intermediário | [ghidra-sre.org](https://ghidra-sre.org/) |
-| **Ghidra Getting Started** — Instalação e primeiros passos | Intermediário | [github.com/NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) |
-| **ImHex** — Hex editor com pattern highlighting | Intermediário | [imhex.wer](https://imhex.wer.net/) |
-| **Binary Ninja** — Disassembler comercial (alternativa ao Ghidra) | Avançado | [binary.ninja](https://binary.ninja/) |
-| **IDA Pro** — Disassembler clássico (pago) | Avançado | [hex-rays.com/ida-pro](https://hex-rays.com/ida-pro/) |
-| **perf** — Profiler Linux (hardware counters) | Avançado | [man7.org/linux/man-pages/man1/perf.1.html](https://man7.org/linux/man-pages/man1/perf.1.html) |
+| **[Ghidra](https://ghidra-sre.org/)** — Framework de engenharia reversa da NSA | Intermediário | [ghidra-sre.org](https://ghidra-sre.org/) |
+| **[Ghidra Getting Started](https://github.com/NationalSecurityAgency/ghidra)** — Instalação e primeiros passos | Intermediário | [github.com](https://github.com/NationalSecurityAgency/ghidra) |
+| **[ImHex](https://github.com/WerWolv/ImHex)** — Hex editor com pattern highlighting | Intermediário | [github.com](https://github.com/WerWolv/ImHex) |
+| **[Binary Ninja](https://binary.ninja/)** — Disassembler comercial (alternativa ao Ghidra) | Avançado | [binary.ninja](https://binary.ninja/) |
+| **[IDA Pro](https://hex-rays.com/ida-pro/)** — Disassembler clássico (pago) | Avançado | [hex-rays.com](https://hex-rays.com/ida-pro/) |
+| **[perf](https://man7.org/linux/man-pages/man1/perf.1.html)** — Profiler Linux (hardware counters) | Avançado | [man7.org](https://man7.org/linux/man-pages/man1/perf.1.html) |
 
 ### 🔥 Mojo (Diferencial de Altíssimo Peso)
 
 | Recurso | Nível | Link |
 |---------|-------|------|
-| **Mojo Manual** — Documentação oficial da linguagem | Intermediário | [docs.modular.com/mojo](https://docs.modular.com/mojo/) |
-| **Mojo Quickstart** — Instalação e primeiros passos | Iniciante | [docs.modular.com/mojo/quickstart](https://docs.modular.com/mojo/quickstart/) |
-| **Mojo Standard Library** — Referência completa | Intermediário | [docs.modular.com/mojo/std](https://docs.modular.com/mojo/std/) |
-| **Mojo GPU Programming** — Kernels GPU com MAX | Avançado | [max.modular.com/gpu](https://max.modular.com/gpu/) |
-| **Mojo Quest** — Aprenda Mojo corrigindo bugs no browser | Iniciante | [quest.mojolang.org](https://quest.mojolang.org/) |
-| **Mojo Open Source** — Repositório GitHub (desde ago/2026) | Avançado | [github.com/modular/modular](https://github.com/modular/modular) |
+| **[Mojo Manual](https://docs.modular.com/mojo/)** — Documentação oficial da linguagem | Intermediário | [docs.modular.com](https://docs.modular.com/mojo/) |
+| **[Mojo Quickstart](https://docs.modular.com/mojo/manual/)** — Instalação e primeiros passos | Iniciante | [docs.modular.com](https://docs.modular.com/mojo/manual/) |
+| **[Mojo Standard Library](https://docs.modular.com/mojo/std/)** — Referência completa | Intermediário | [docs.modular.com](https://docs.modular.com/mojo/std/) |
+| **[Mojo GPU Programming](https://docs.modular.com/max/)** — Kernels GPU com MAX | Avançado | [docs.modular.com](https://docs.modular.com/max/) |
+| **[Mojo Quest](https://quest.mojolang.org/)** — Aprenda Mojo corrigindo bugs no browser | Iniciante | [quest.mojolang.org](https://quest.mojolang.org/) |
+| **[Mojo Open Source](https://github.com/modular/modular)** — Repositório GitHub (desde ago/2026) | Avançado | [github.com](https://github.com/modular/modular) |
 
 ### 🔹 Rust Avançado (unsafe, FFI, Memory Layout)
 
 | Recurso | Nível | Link |
 |---------|-------|------|
-| **The Rustonomicon** — Guia oficial de unsafe Rust | Avançado | [doc.rust-lang.org/nomicon](https://doc.rust-lang.org/nomicon/) |
-| **Rust FFI Omnibus** — FFI com C/Python/Ruby | Avançado | [jakegoulding.com/rust-ffi-omnibus](http://jakegoulding.com/rust-ffi-omnibus/) |
-| **bindgen** — Gera bindings C automaticamente | Avançado | [docs.rs/bindgen/latest/bindgen](https://docs.rs/bindgen/latest/bindgen/) |
-| **cxx** — FFI C++ seguro | Avançado | [cxx.rs](https://cxx.rs/) |
-| **std::alloc** — Memory allocators customizados | Avançado | [doc.rust-lang.org/std/alloc](https://doc.rust-lang.org/std/alloc/) |
+| **[The Rustonomicon](https://doc.rust-lang.org/nomicon/)** — Guia oficial de unsafe Rust | Avançado | [doc.rust-lang.org](https://doc.rust-lang.org/nomicon/) |
+| **[Rust FFI Omnibus](http://jakegoulding.com/rust-ffi-omnibus/)** — FFI com C/Python/Ruby | Avançado | [jakegoulding.com](http://jakegoulding.com/rust-ffi-omnibus/) |
+| **[bindgen](https://docs.rs/bindgen/latest/bindgen/)** — Gera bindings C automaticamente | Avançado | [docs.rs](https://docs.rs/bindgen/latest/bindgen/) |
+| **[cxx](https://cxx.rs/)** — FFI C++ seguro | Avançado | [cxx.rs](https://cxx.rs/) |
+| **[std::alloc](https://doc.rust-lang.org/std/alloc/)** — Memory allocators customizados | Avançado | [doc.rust-lang.org](https://doc.rust-lang.org/std/alloc/) |
 
 ### 🔹 Projetos Open Source para Estudar (GitHub)
 
 | Projeto | Área | Link |
 |---------|------|------|
-| **gltf-rs** | Parser 3D | [github.com/gltf-rs/gltf](https://github.com/gltf-rs/gltf) |
-| **image-rs/image** | Parsing de imagens (PNG, JPEG, etc) | [github.com/image-rs/image](https://github.com/image-rs/image) |
-| **image-rs/image-png** | Parser PNG (ótimo para aprender) | [github.com/image-rs/image-png](https://github.com/image-rs/image-png) |
-| **rust-lang/rustlings** | Exercícios fundamentais | [github.com/rust-lang/rustlings](https://github.com/rust-lang/rustlings) |
-| **rust-bakery/nom** | Parser combinators | [github.com/rust-bakery/nom](https://github.com/rust-bakery/nom) |
-| **rust-fuzz/cargo-fuzz** | Fuzzing | [github.com/rust-fuzz/cargo-fuzz](https://github.com/rust-fuzz/cargo-fuzz) |
-| **bevyengine/bevy** | Game engine 3D | [github.com/bevyengine/bevy](https://github.com/bevyengine/bevy) |
-| **gfx-rs/wgpu** | GPU abstraction | [github.com/gfx-rs/wgpu](https://github.com/gfx-rs/wgpu) |
-| **ruffle-rs/ruffle** | Emulador Flash (parsing binário complexo) | [github.com/ruffle-rs/ruffle](https://github.com/ruffle-rs/ruffle) |
-| **iced-rs/iced** | GUI Rust (bom para ver arquitetura) | [github.com/iced-rs/iced](https://github.com/iced-rs/iced) |
+| **[gltf-rs](https://github.com/gltf-rs/gltf)** | Parser 3D | [github.com](https://github.com/gltf-rs/gltf) |
+| **[image-rs/image](https://github.com/image-rs/image)** | Parsing de imagens (PNG, JPEG, etc) | [github.com](https://github.com/image-rs/image) |
+| **[image-rs/image-png](https://github.com/image-rs/image-png)** | Parser PNG (ótimo para aprender) | [github.com](https://github.com/image-rs/image-png) |
+| **[rust-lang/rustlings](https://github.com/rust-lang/rustlings)** | Exercícios fundamentais | [github.com](https://github.com/rust-lang/rustlings) |
+| **[rust-bakery/nom](https://github.com/rust-bakery/nom)** | Parser combinators | [github.com](https://github.com/rust-bakery/nom) |
+| **[rust-fuzz/cargo-fuzz](https://github.com/rust-fuzz/cargo-fuzz)** | Fuzzing | [github.com](https://github.com/rust-fuzz/cargo-fuzz) |
+| **[bevyengine/bevy](https://github.com/bevyengine/bevy)** | Game engine 3D | [github.com](https://github.com/bevyengine/bevy) |
+| **[gfx-rs/wgpu](https://github.com/gfx-rs/wgpu)** | GPU abstraction | [github.com](https://github.com/gfx-rs/wgpu) |
+| **[ruffle-rs/ruffle](https://github.com/ruffle-rs/ruffle)** | Emulador Flash (parsing binário complexo) | [github.com](https://github.com/ruffle-rs/ruffle) |
+| **[iced-rs/iced](https://github.com/iced-rs/iced)** | GUI Rust (bom para ver arquitetura) | [github.com](https://github.com/iced-rs/iced) |
 
 ---
 
@@ -204,6 +204,43 @@ Estimativas baseadas em dedicação real com projetos práticos implementados. E
 | 🎵 Multimedia / Áudio | 380h | Áudio / Vídeo | #21→#43→#54→#72→#87→#96 | 6 meses, 10 dias | 3 meses, 5 dias | 1 mês, 18 dias |
 | ⚡ Performance | 400h | HPC / Otimização | #4→#9→#39→#67→#76→#78→#80 | 6 meses, 20 dias | 3 meses, 10 dias | 1 mês, 20 dias |
 | 🔌 Interop / FFI | 310h | Interoperabilidade | #20→#25→#54→#60→#84 | 5 meses, 5 dias | 2 meses, 18 dias | 1 mês, 9 dias |
+
+---
+
+## 🔥 TRILHA SÊNIOR / MALUCO — O Caminho dos Gigantes
+
+> *"Se você quer R$ 36k/mês em Rust, não basta saber fazer CRUD. Você precisa ser alguém que pega bytes desconhecidos, descobre a estrutura por trás deles, implementa um parser seguro em Rust, cobre com fuzzing, otimiza com profiling e coloca em produção."*
+
+**Esta trilha não tem estimativa de tempo — tempo não importa, profundidade importa.** Cada etapa pode levar de 6 meses a 2 anos. A sequência de pré-requisitos é o que garante que você construa bases sólidas antes de avançar.
+
+| Etapa | Tópico | Pré-requisitos |
+|-------|--------|----------------|
+| 1 | **Rust Sólido** — CLI, Testes, Estruturas, Generics, Iteradores, Closures | — |
+| 2 | **unsafe + FFI Avançado** — Ponteiros Inteligentes, bindgen, cxx, Rustonomicon | Etapa 1 |
+| 3 | **Parsing Binário** — nom, Kaitai Struct, error recovery, formatos desconhecidos | Etapa 1 |
+| 4 | **Fuzzing** — cargo-fuzz, AFL, Structure-Aware, corpus generation, crash triage | Etapa 3 |
+| 5 | **Engenharia Reversa** — Ghidra, ImHex, Binary Ninja, IDA Pro, disassemblers | Etapa 3 + 4 |
+| 6 | **Tooling Low-Level** — perf, strace, objdump, readelf, xxd, instrumentação | Etapa 2 |
+| 7 | **Segurança de Parsers** — Validação de input, truncamento, integer overflow, decompression bombs, recursão maliciosa | Etapa 3 + 4 + 5 |
+| 8 | **Tecnologia 3D** — glTF, geometria, skeletons, animação, materiais PBR, matemática 3D | Etapa 1 |
+| 9 | **Performance & HPC** — Benchmarking, profiling, SIMD, HPC, latência determinista | Etapa 6 |
+| 10 | **Compiladores & VMs** — Interpretador, Compiler, LLVM IR, memory allocators | Etapa 3 |
+| 11 | **Sistemas & Kernel** — Memory allocator customizado, kernel modules, VMM/hypervisor | Etapa 2 + 9 |
+| 12 | **Diferenciais** — Mojo (Manual → GPU Kernels), lock-free, projetos open source no GitHub | Todas as anteriores |
+
+### ⚠️ Comprovação de Senioridade
+
+Currículo **não basta**. Exigem GitHub/GitLab com projetos próprios:
+- Bibliotecas Rust publicadas no crates.io
+- Parsers seguros com cobertura de fuzzing
+- Engines, compiladores, emuladores, renderers
+- Ferramentas de reverse engineering
+- Profilers, debuggers, memory allocators
+- Kernels, VMMs, sistemas embarcados
+
+**O que importa:** arquitetura, complexidade dos problemas resolvidos, qualidade do código, testes, performance, segurança, decisões de engenharia documentadas.
+
+> 💡 **Resumo para os malucos:** Esta trilha te leva de "sei fazer CRUD" para "pego bytes desconhecidos e descubro o que são". O caminho é de 3–5 anos de estudo focado e projetos reais no GitHub. **Não há atalho.**
 
 ---
 
@@ -436,27 +473,27 @@ Fronteiras da engenharia. Alguns desses tópicos são carreiras inteiras. Faixa 
 
 | Recurso | Como usar / Por que | Tópicos / Tipo |
 |---------|---------------------|----------------|
-| **The Rust Programming Language** (doc.rust-lang.org/book) | Leia linear do cap. 1 ao 20. Caps. 4 (ownership), 10 (generics/traits) e 15 (smart pointers) são os mais importantes. Releia quando travar. O livro oficial usado em Stanford e MIT. | #1 ao #20 — GRATUITO |
-| **Rustlings** (github.com/rust-lang/rustlings) | Instale com 'cargo install rustlings'. Faça em paralelo com The Book. ~100 exercícios com erros de compilação reais. | #1 ao #10 — GRATUITO |
-| **Rust by Example** (doc.rust-lang.org/rust-by-example) | Use como referência. Procure o conceito e veja o exemplo rodável. | #1 ao #15 — GRATUITO |
-| **Comprehensive Rust** (google.github.io/comprehensive-rust) | Alternativa mais concisa ao The Book para quem vem de C/C++ ou Go. Vai mais direto ao ponto. | #1 ao #12 — GRATUITO |
-| **Jon Gjengset — Crust of Rust** (YouTube) | O melhor canal de Rust do mundo. Jon implementa crates reais ao vivo explicando cada decisão. | #13 Async, #46 Macros — GRATUITO |
-| **Zero to Production in Rust** (Palmieri) | O melhor livro de backend Rust. Constrói uma newsletter API completa: axum, sqlx, autenticação, deploy. | #14 API REST — PAGO ~$40 |
-| **Tokio Tutorial Oficial** (tokio.rs/tokio/tutorial) | Constrói um cliente/servidor Redis do zero ensinando channels, tasks, mutex async. | #15 Async — GRATUITO |
-| **Bevy Cheatbook** (bevy-cheatbook.github.io) | Mais útil que a documentação oficial — tem exemplos por feature, não por API. | #41 Game Dev — GRATUITO |
-| **Learn Wgpu** (sotrh.github.io/learn-wgpu) | O ÚNICO tutorial completo de wgpu — do triângulo até texturas, câmera, iluminação. | #42 Renderização — GRATUITO |
-| **The Embedded Rust Book** (docs.rust-embedded.org/book) | Leia os primeiros 5 capítulos antes de qualquer Embassy. | #45 IoT — GRATUITO |
-| **Writing an OS in Rust** (os.phil-opp.com) | A série mais detalhada de OSDev em Rust. Cobre bootloader, VGA, interrupções, paginação. | #91 VMM, #99 OS — GRATUITO |
-| **The Rustonomicon** (doc.rust-lang.org/nomicon) | O guia oficial de unsafe Rust. Leia quando precisar de unsafe para motivo específico. | #25 FFI, #53 Lock-free — GRATUITO |
-| **Candle — HuggingFace** (github.com/huggingface/candle) | Clone o repositório e rode os exemplos primeiro. A documentação é escassa — leia o código. | #57 VectorDB, #94 ML — GRATUITO |
-| **Burn — Framework ML** (burn.dev) | Siga o livro em ordem. Implemente MNIST primeiro. Use backend WGPU para rodar sem CUDA. | #94 ML Treino — GRATUITO |
-| **Crafting Interpreters** (Nystrom) | O melhor livro de implementação de linguagens. Leia Parte I e implemente em Rust simultaneamente. | #23 Parser, #24 Interpretador — GRATUITO |
-| **Proc Macro Workshop** (dtolnay) | Série de exercícios para aprender proc macros implementando Builder, derive Debug, etc. | #46 Proc Macros — GRATUITO |
-| **Anchor Framework Book** (anchor-lang.com/docs) | Comece pelo quickstart, implemente todo-list on-chain, depois token vesting. | #63 Blockchain — GRATUITO |
-| **RustCrypto** (github.com/RustCrypto) | Implementações auditadas de AES, SHA, RSA, ECDSA. Use SEMPRE em vez de implementar do zero. | #34 Segurança — GRATUITO |
-| **Database Internals** (Alex Petrov) | Como bancos funcionam internamente: B-Trees, LSM Trees, WAL, replicação, consensus. | #48 DB Internals — PAGO |
-| **Learning Rust With Entirely Too Many Linked Lists** | O livro mais famoso para aprender ownership profundamente. Não desista no capítulo 4. | #11 Estruturas Manuais — GRATUITO |
-| **OS: Three Easy Pieces** (Arpaci-Dusseau) | O melhor livro de sistemas operacionais — cobre virtualização, concorrência e persistência. | #91 VMM, #92 CoW FS — GRATUITO |
+| **[The Rust Programming Language](https://doc.rust-lang.org/book/)** (doc.rust-lang.org/book) | Leia linear do cap. 1 ao 20. Caps. 4 (ownership), 10 (generics/traits) e 15 (smart pointers) são os mais importantes. Releia quando travar. O livro oficial usado em Stanford e MIT. | #1 ao #20 — GRATUITO |
+| **[Rustlings](https://github.com/rust-lang/rustlings)** (github.com/rust-lang/rustlings) | Instale com 'cargo install rustlings'. Faça em paralelo com The Book. ~100 exercícios com erros de compilação reais. | #1 ao #10 — GRATUITO |
+| **[Rust by Example](https://doc.rust-lang.org/rust-by-example/)** (doc.rust-lang.org/rust-by-example) | Use como referência. Procure o conceito e veja o exemplo rodável. | #1 ao #15 — GRATUITO |
+| **[Comprehensive Rust](https://google.github.io/comprehensive-rust/)** (google.github.io/comprehensive-rust) | Alternativa mais concisa ao The Book para quem vem de C/C++ ou Go. Vai mais direto ao ponto. | #1 ao #12 — GRATUITO |
+| **[Jon Gjengset — Crust of Rust](https://www.youtube.com/@jonhoo)** (YouTube) | O melhor canal de Rust do mundo. Jon implementa crates reais ao vivo explicando cada decisão. | #13 Async, #46 Macros — GRATUITO |
+| **[Zero to Production in Rust](https://www.zero2prod.com/)** (Palmieri) | O melhor livro de backend Rust. Constrói uma newsletter API completa: axum, sqlx, autenticação, deploy. | #14 API REST — PAGO ~$40 |
+| **[Tokio Tutorial Oficial](https://tokio.rs/tokio/tutorial)** (tokio.rs/tokio/tutorial) | Constrói um cliente/servidor Redis do zero ensinando channels, tasks, mutex async. | #15 Async — GRATUITO |
+| **[Bevy Cheatbook](https://bevy-cheatbook.github.io/)** (bevy-cheatbook.github.io) | Mais útil que a documentação oficial — tem exemplos por feature, não por API. | #41 Game Dev — GRATUITO |
+| **[Learn Wgpu](https://sotrh.github.io/learn-wgpu/)** (sotrh.github.io/learn-wgpu) | O ÚNICO tutorial completo de wgpu — do triângulo até texturas, câmera, iluminação. | #42 Renderização — GRATUITO |
+| **[The Embedded Rust Book](https://docs.rust-embedded.org/book/)** (docs.rust-embedded.org/book) | Leia os primeiros 5 capítulos antes de qualquer Embassy. | #45 IoT — GRATUITO |
+| **[Writing an OS in Rust](https://os.phil-opp.com/)** (os.phil-opp.com) | A série mais detalhada de OSDev em Rust. Cobre bootloader, VGA, interrupções, paginação. | #91 VMM, #99 OS — GRATUITO |
+| **[The Rustonomicon](https://doc.rust-lang.org/nomicon/)** (doc.rust-lang.org/nomicon) | O guia oficial de unsafe Rust. Leia quando precisar de unsafe para motivo específico. | #25 FFI, #53 Lock-free — GRATUITO |
+| **[Candle — HuggingFace](https://github.com/huggingface/candle)** (github.com/huggingface/candle) | Clone o repositório e rode os exemplos primeiro. A documentação é escassa — leia o código. | #57 VectorDB, #94 ML — GRATUITO |
+| **[Burn — Framework ML](https://burn.dev/)** (burn.dev) | Siga o livro em ordem. Implemente MNIST primeiro. Use backend WGPU para rodar sem CUDA. | #94 ML Treino — GRATUITO |
+| **[Crafting Interpreters](https://craftinginterpreters.com/)** (Nystrom) | O melhor livro de implementação de linguagens. Leia Parte I e implemente em Rust simultaneamente. | #23 Parser, #24 Interpretador — GRATUITO |
+| **[Proc Macro Workshop](https://github.com/dtolnay/proc-macro-workshop)** (dtolnay) | Série de exercícios para aprender proc macros implementando Builder, derive Debug, etc. | #46 Proc Macros — GRATUITO |
+| **[Anchor Framework Book](https://www.anchor-lang.com/docs)** (anchor-lang.com/docs) | Comece pelo quickstart, implemente todo-list on-chain, depois token vesting. | #63 Blockchain — GRATUITO |
+| **[RustCrypto](https://github.com/RustCrypto)** (github.com/RustCrypto) | Implementações auditadas de AES, SHA, RSA, ECDSA. Use SEMPRE em vez de implementar do zero. | #34 Segurança — GRATUITO |
+| **[Database Internals](https://www.amazon.com.br/dp/1492040347)** (Alex Petrov) | Como bancos funcionam internamente: B-Trees, LSM Trees, WAL, replicação, consensus. | #48 DB Internals — PAGO |
+| **[Learning Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/)** | O livro mais famoso para aprender ownership profundamente. Não desista no capítulo 4. | #11 Estruturas Manuais — GRATUITO |
+| **[OS: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/)** (Arpaci-Dusseau) | O melhor livro de sistemas operacionais — cobre virtualização, concorrência e persistência. | #91 VMM, #92 CoW FS — GRATUITO |
 
 ---
 
