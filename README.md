@@ -13,7 +13,11 @@
 
 ---
 
-## 📊 Progresso Geral
+## 📋 Mapa Completo com Referências e Materiais
+
+> 👉 **[Acesse o Roadmap Rust Supremo](roadmap_rust_supremo.md)** — o guia completo com **todos os 100+ tópicos, links, referências, materiais de estudo e instruções detalhadas**. Se você quer ver os materiais disponíveis (e não apenas o checklist de progresso), comece por ali!
+
+---
 
 | Nível | Tópicos | Concluídos | Progresso |
 | :--- | :---: | :---: | :--- |
@@ -230,7 +234,7 @@
 ```
 roadmap-rust/
 ├── README.md                    ← este arquivo (checklist geral)
-├── roadmap_rust_supremo_v10.md  ← guia completo com 100+ tópicos
+| ├── roadmap_rust_supremo.md      ← guia completo com 100+ tópicos (REFERÊNCIAS + MATERAIS)
 ├── nivel-1-iniciante/
 │   ├── 01-cli.md
 │   ├── 02-sqlite.md
