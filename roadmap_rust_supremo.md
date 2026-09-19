@@ -298,6 +298,8 @@ Currículo **não basta**. Exigem GitHub/GitLab com projetos próprios:
 
 ## 🟢 NÍVEL 1 — Iniciante: O Próximo Passo Lógico (#1 ao #20)
 
+> ⚠️ **Numeração canônica:** Este documento segue a numeração do `README.md` como referência. Tópicos marcados com † existem no roadmap original mas não têm correspondência direta no README — são conteúdos complementares que foram mantidos.
+
 Fundamentos práticos que todo projeto Rust usa. Comece pelo #1 e avance sequencialmente. Faixa total: 197–365h (média ~282h).
 
 ### #1 — CLI — Linha de Comando ⏱ 10–20h
@@ -318,7 +320,7 @@ Fundamentos práticos que todo projeto Rust usa. Comece pelo #1 e avance sequenc
 
 **Ferramentas:** sqlx (async + compile-time checks), rusqlite (síncrono, mais simples), sea-orm (ORM completo)
 
-### #3 — Testes Unitários e de Integração ⏱ 10–20h
+### #4 — Testes e Qualidade de Código ⏱ 10–20h
 **O que é:** Testes automatizados que garantem que seu código funciona e continua funcionando após mudanças. Rust tem suporte nativo a testes unitários (#[test]) e de integração (tests/).
 
 **Projeto:** Biblioteca de validação de CPF/CNPJ com 100% de cobertura de testes, incluindo edge cases e propriedades (property-based testing).
@@ -327,16 +329,7 @@ Fundamentos práticos que todo projeto Rust usa. Comece pelo #1 e avance sequenc
 
 **Ferramentas:** cargo test (nativo), proptest (property-based), mockall (mocking), cargo-tarpaulin (cobertura)
 
-### #4 — Estruturas de Dados e Generics ⏱ 10–20h
-**O que é:** Implementar Vec, HashMap, LinkedList e BinaryHeap do zero para entender como funcionam por baixo. Generics permitem código reutilizável com qualquer tipo.
-
-**Projeto:** Implementação de Vec<T> do zero (com alloc, grow, push, pop, drop) e um HashMap simples com chaining.
-
-**Dica:** Entenda monomorphization — o compilador gera código especializado para cada tipo concreto. Zero overhead em runtime.
-
-**Ferramentas:** std::collections (referência), criterion (benchmarks)
-
-### #5 — Tratamento de Erros ⏱ 10–20h
+### #7 — Tratamento de Erros Idiomático ⏱ 10–20h
 **O que é:** Rust não tem exceções — usa Result<T,E> e Option<T> para erros explícitos. O operador ? propaga erros automaticamente.
 
 **Projeto:** Parser de CSV com erros customizados, recovery de erros parciais e mensagens amigáveis.
@@ -345,25 +338,7 @@ Fundamentos práticos que todo projeto Rust usa. Comece pelo #1 e avance sequenc
 
 **Ferramentas:** thiserror, anyhow, eyre
 
-### #6 — Web API REST (Axum) ⏱ 15–25h
-**O que é:** Criar servidores HTTP que recebem requisições JSON e retornam respostas. Axum é o framework mais ergonômico para Rust.
-
-**Projeto:** API de tarefas (TODO) com autenticação JWT, documentação OpenAPI automática e testes de integração.
-
-**Dica:** Use tower-http para middleware (CORS, tracing, compression). Axum integra nativamente com tokio e tower.
-
-**Ferramentas:** axum, tokio, tower-http, serde, utoipa (OpenAPI)
-
-### #7 — Ponteiros Inteligentes e FFI ⏱ 15–25h
-**O que é:** Box, Rc, Arc, RefCell e Mutex — como alocar no heap, compartilhar entre threads e interagir com C.
-
-**Projeto:** Bindings para uma biblioteca C (ex: zlib) com wrapper seguro em Rust.
-
-**Dica:** Entenda quando usar cada smart pointer. Arc<Mutex<T>> é o padrão para estado compartilhado entre threads.
-
-**Ferramentas:** std::ffi, bindgen (gera bindings C automaticamente), cxx (FFI C++ seguro)
-
-### #8 — Logging e Observabilidade ⏱ 10–20h
+### #8 — Logging e Observabilidade (Tracing) ⏱ 10–20h
 **O que é:** Registrar eventos do sistema para debugging e monitoramento. Rust tem o crate tracing que é o padrão da indústria.
 
 **Projeto:** CLI com logs estruturados (JSON), níveis configuráveis e spans para tracing distribuído.
@@ -371,15 +346,6 @@ Fundamentos práticos que todo projeto Rust usa. Comece pelo #1 e avance sequenc
 **Dica:** Use tracing em vez de log — é mais poderoso e integra com OpenTelemetry.
 
 **Ferramentas:** tracing, tracing-subscriber, opentelemetry
-
-### #9 — Iteradores e Closures Avançados ⏱ 10–20h
-**O que é:** Iteradores são lazy e zero-cost. Combinators como map, filter, fold, scan, flatten permitem pipelines de dados expressivos.
-
-**Projeto:** Pipeline de processamento de CSV com iterators — filter, map, collect sem alocações intermediárias.
-
-**Dica:** Entenda Fn, FnMut, FnOnce — cada um permite diferentes formas de captura de variáveis.
-
-**Ferramentas:** itertools (combinators extras), std::iter
 
 ### #10 — Concorrência com Threads ⏱ 15–25h
 **O que é:** Paralelismo real com threads nativas. Rust previne data races em compile time via Send e Sync traits.
@@ -389,6 +355,42 @@ Fundamentos práticos que todo projeto Rust usa. Comece pelo #1 e avance sequenc
 **Dica:** Use rayon para paralelismo de dados — .par_iter() converte automaticamente.
 
 **Ferramentas:** std::thread, rayon, crossbeam, parking_lot
+
+### † — Estruturas de Dados e Generics ⏱ 10–20h (extra, sem correspondência no README)
+**O que é:** Implementar Vec, HashMap, LinkedList e BinaryHeap do zero para entender como funcionam por baixo. Generics permitem código reutilizável com qualquer tipo.
+
+**Projeto:** Implementação de Vec<T> do zero (com alloc, grow, push, pop, drop) e um HashMap simples com chaining.
+
+**Dica:** Entenda monomorphization — o compilador gera código especializado para cada tipo concreto. Zero overhead em runtime.
+
+**Ferramentas:** std::collections (referência), criterion (benchmarks)
+
+### † — Web API REST (Axum) ⏱ 15–25h (extra, sem correspondência direta no README)
+**O que é:** Criar servidores HTTP que recebem requisições JSON e retornam respostas. Axum é o framework mais ergonômico para Rust.
+
+**Projeto:** API de tarefas (TODO) com autenticação JWT, documentação OpenAPI automática e testes de integração.
+
+**Dica:** Use tower-http para middleware (CORS, tracing, compression). Axum integra nativamente com tokio e tower.
+
+**Ferramentas:** axum, tokio, tower-http, serde, utoipa (OpenAPI)
+
+### † — Ponteiros Inteligentes e FFI ⏱ 15–25h (extra, sem correspondência direta no README)
+**O que é:** Box, Rc, Arc, RefCell e Mutex — como alocar no heap, compartilhar entre threads e interagir com C.
+
+**Projeto:** Bindings para uma biblioteca C (ex: zlib) com wrapper seguro em Rust.
+
+**Dica:** Entenda quando usar cada smart pointer. Arc<Mutex<T>> é o padrão para estado compartilhado entre threads.
+
+**Ferramentas:** std::ffi, bindgen (gera bindings C automaticamente), cxx (FFI C++ seguro)
+
+### † — Iteradores e Closures Avançados ⏱ 10–20h (extra, sem correspondência direta no README)
+**O que é:** Iteradores são lazy e zero-cost. Combinators como map, filter, fold, scan, flatten permitem pipelines de dados expressivos.
+
+**Projeto:** Pipeline de processamento de CSV com iterators — filter, map, collect sem alocações intermediárias.
+
+**Dica:** Entenda Fn, FnMut, FnOnce — cada um permite diferentes formas de captura de variáveis.
+
+**Ferramentas:** itertools (combinators extras), std::iter
 
 ---
 
@@ -488,7 +490,7 @@ Aqui você começa a construir sistemas completos. Cada tópico expande o Nível
 
 ---
 
-*(Níveis 3 e 4 mantidos conforme original — tópicos #31–#100)*
+> ⚠️ **Nota sobre Níveis 3 e 4:** Os tópicos #31–#100 estão listados no checklist do README mas **não possuem conteúdo detalhado** neste documento. A prioridade atual é completar o Nível 2 (#21–#30). Para uma visão geral do mercado e projetos práticos que cobrem esses níveis, veja [VAGAS.md](VAGAS.md).
 
 ---
 
