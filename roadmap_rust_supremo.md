@@ -27,9 +27,24 @@ Rust foi projetado por sistemas programmers que vinham de C e C++. A familiarida
 
 ---
 
-## 🎯 NORTE PARA OS MALUCOS — O que o mercado SÊNIOR/STAFF exige
+## 🎯 NORTE PARA OS MALUCOS — Quatro Nortes Concorrentes
 
-> *"Rust é para a vida toda"* — mas que tipo de vida? Se você quer mirar em vagas como a **PANIK (R$ 36k/mês + bônus, PJ, 100% remoto)**, aqui está o que o mercado real exige de um Engenheiro de Sistemas Sênior/Staff em Rust:
+> *"Rust é para a vida toda"* — mas que tipo de vida? O mercado Rust não é um só. Aqui estão **quatro perfis de atuação**, cada um com suas exigências e faixas salariais. Você não precisa seguir todos — escolha UM:
+
+| Norte | Foco | Vagas de referência (VAGAS.md) | Faixa salarial |
+| --- | --- | --- | --- |
+| 🌐 **Infra de rede e edge** | Tokio, proxy, latência de cauda, PKI, HSM | #1, #2, #6, #7, #47 | US$ 160k–200k/ano |
+| 🤖 **IoT e embarcados** | , RTOS, HAL, ARM, ESP32 | #10, #11, #15, #18, #19 | US$ 153k/ano (média) |
+| 📊 **Engines de dados** | B-Tree, WAL, query engine, CDC | #20, #22, #23, #24, #25 | US$ 150k–200k/ano |
+| 🔍 **Parsing e reverse** | Ghidra, Kaitai, fuzzing, PANIK | #22, #33, PANIK | R$ 36k/mês (PANIK) |
+
+> 💡 **Qual escolher?** Se você quer a **barreira de entrada mais baixa**, vá de **IoT e embarcados** (setor que mais cresce). Se quer **maior salário**, vá de **infra de rede**. Se quer **nicho exclusivo com pouca concorrência**, vá de **parsing e reverse**. **Engines de dados** é o meio-termo: paga bem, tem demanda, e você não fala com cliente.
+
+---
+
+## 🎯 NORTE ORIGINAL — PANIK (Parsing e Reversa)
+
+> *Se você quer mirar especificamente em vagas como a **PANIK (R$ 36k/mês + bônus, PJ, 100% remoto)**, aqui está o que o mercado real exige de um Engenheiro de Sistemas Sênior/Staff em Rust:
 
 ### 🔹 Rust Avançado (requisito central)
 Ownership, borrowing, lifetimes, traits, generics, slices, byte buffers, memory layout, zero-copy, error modeling, concorrência, multithreading, synchronization, FFI, **unsafe Rust quando justificável**, profiling, programação orientada a performance.
@@ -49,8 +64,8 @@ Geometria (vertices, indices, topology, normals, tangents, UVs), skeletons (bone
 ### 🔹 Tooling / Low Level
 Linux, GDB/LLDB, perf, strace, objdump, readelf, xxd/hexdump. **Diferenciais enormes:** Ghidra, Binary Ninja, IDA, ImHex, Kaitai Struct, disassemblers, instrumentação dinâmica.
 
-### 🔥 Mojo — Diferencial de Altíssimo Peso
-Conhecimento prático de **Mojo** (Modular) será considerado diferencial enorme — HPC, SIMD, kernels, memory management, workloads numéricos, infraestrutura de alta performance. Ainda não é open-source (previsão 2026), mas quem souber usar pesa bastante na seleção.
+### 🔥 Mojo — Aposta de Alto Risco/Alto Retorno
+Conhecimento prático de **Mojo** (Modular) é citado como diferencial — HPC, SIMD, kernels, memory management, workloads numéricos. Mojo se tornou **open-source em agosto de 2026** (github.com/modular/modular). ⚠️ **Atenção:** nas 50 vagas de referência deste roadmap, **nenhuma** exigiu Mojo. É uma aposta de longo prazo, não uma exigência atual de mercado.
 
 ### 🔹 Outros Diferenciais
 C/C++, SIMD, WebAssembly, GPU computing, compiladores, virtual machines, memory allocators, compression, engines, mesh processing, animation systems.
@@ -242,6 +257,23 @@ Currículo **não basta**. Exigem GitHub/GitLab com projetos próprios:
 
 > 💡 **Resumo para os malucos:** Esta trilha te leva de "sei fazer CRUD" para "pego bytes desconhecidos e descubro o que são". O caminho é de 3–5 anos de estudo focado e projetos reais no GitHub. **Não há atalho.**
 
+### 📁 Como Estruturar seu Portfólio (GitHub)
+
+> **Regra de ouro:** 4 projetos bem feitos com README documentando decisões > 32 repositórios vazios.
+
+**README mínimo aceitável para cada projeto:**
+1. **O que é** (uma frase, não um parágrafo)
+2. **Por que existe** (qual problema resolve)
+3. **Decisões de engenharia** (por que escolheu X em vez de Y — é o que recrutadores leem)
+4. **Como rodar** (comandos exatos, não assuma que sabe)
+5. **Benchmarks** (se aplicável: números, não adjetivos)
+6. **O que falta** (issues abertas mostram que você pensa à frente)
+
+**Estrutura de workspace recomendada:**
+
+
+> 💡 **Veja a seção [Projetos de Hobby Recomendados](VAGAS.md#-projetos-de-hobby-recomendados) no VAGAS.md para o escopo detalhado de cada projeto.**
+
 ---
 
 ## 🧠 CONCEITOS FUNDAMENTAIS — Transversais a Todos os Níveis
@@ -260,6 +292,7 @@ Currículo **não basta**. Exigem GitHub/GitLab com projetos próprios:
 | **Macros (decl. e proc.)** | Declarativas (macro_rules!): pattern matching no AST, substituição de texto. Procedurais: recebem TokenStream e retornam TokenStream em compile time. 3 tipos: derive (#[derive(Debug)]), attribute (#[route(GET)]), function-like (sql!('SELECT...')). cargo-expand mostra o código gerado. | A partir #7 |
 | **Cargo + Workspace** | Cargo = gerenciador de pacotes + build system + test runner + doc generator + publisher. Cargo.toml declara dependências com versionamento semântico. Cargo.lock garante builds reproduzíveis. Workspace = múltiplos crates no mesmo repo compartilhando dependências e diretório target/. | #1 ao #100 |
 | **Traits Avançados** | dyn Trait = dispatch dinâmico via vtable (tipo não precisa ser conhecido em compile time). impl Trait = dispatch estático com monomorphization (zero overhead). Associated types. Default generics. Where clauses para bounds complexos. HRTB: for<'a> fn(&'a T) para closures com lifetimes arbitrários. | A partir #14 |
+| **Concorrência & Sync** | O requisito mais frequente do mercado Rust (presente em ~42 das 50 vagas analisadas). Threads (std::thread, parking_lot), async/await (Tokio), canais (std::sync::mpsc), atômicos (std::sync::atomic), Send/Sync traits, Rayon para paralelismo de dados, crossbeam. ⚠️ Não é um tópico isolado — é pré-requisito transversal que permeia todo o roadmap. | #9, #10, #14, #15, #17, #22 (transversal) |
 
 ---
 
@@ -463,13 +496,19 @@ Aqui você começa a construir sistemas completos. Cada tópico expande o Nível
 
 Projetos de longa duração. Escolha pelos seus objetivos, não pela ordem numérica. Faixa total: 1190–2120h (média ~1655h).
 
+> ⚠️ **Aviso:** Os tópicos #61–#80 estão listados no checklist mas **ainda não têm conteúdo detalhado** neste documento. A prioridade atual é completar o Nível 2 (#21–#30) e o Nível 1 (#1–#20).
+
 ## 🔴 NÍVEL 4 — Hardcore: Onde os Gigantes Pisam (#81 ao #100)
 
 Fronteiras da engenharia. Alguns desses tópicos são carreiras inteiras. Faixa total: 3000–6000h (média ~4500h).
 
+> ⚠️ **Aviso:** Os tópicos #81–#100 estão listados no checklist mas **ainda não têm conteúdo detalhado** neste documento. A prioridade atual é completar o Nível 2 (#21–#30) e o Nível 1 (#1–#20).
+
 ---
 
 ## 📚 ONDE PESQUISAR E PRATICAR — 25 Recursos com Links
+
+> 👉 **Veja também:** [VAGAS.md](VAGAS.md) — levantamento completo de 50 vagas, habilidades em comuns e projetos de treino recomendados.
 
 | Recurso | Como usar / Por que | Tópicos / Tipo |
 |---------|---------------------|----------------|
@@ -520,7 +559,7 @@ Comece com ESP32-S3 (barato, USB nativo, WiFi integrado) antes de ir para STM32.
 ### Ferramentas do Dia a Dia — Use Desde o Dia 1
 cargo clippy (linter que encontra antipadrões) e cargo fmt (formatação automática) são obrigatórios. cargo-expand mostra código gerado por macros. cargo-flamegraph para profiling de CPU. cargo-audit para CVEs em dependências. cargo-nextest para testes 3x mais rápidos. rust-analyzer no VS Code ou Neovim é indispensável.
 
-### Rust no Mercado em 2025
+### Rust no Mercado em 2026
 9 anos consecutivos como linguagem mais amada no StackOverflow Developer Survey. Amazon (Firecracker para EC2), Microsoft (Windows kernel e Azure), Google (Android e Chrome), Meta, Cloudflare (Pingora CDN), Discord, Figma, 1Password. O mercado está crescendo forte — especialmente em infraestrutura, sistemas, segurança e IA de baixa latência.
 
 ### HFT e Finanças
@@ -536,3 +575,8 @@ Solana é escrita em Rust nativamente e tem a maior comunidade Rust em blockchai
 O objetivo NÃO é fazer os 100 tópicos. É dominar a trilha que alinha com o que você quer construir. Comece sempre pelo #1 (CLI). **Rust é para a vida toda — aproveite cada etapa da jornada.**
 
 > ⚡ Aviso: Se bater a dúvida, vá de API Web (Axum) para trabalho ou CLI (Clap) para algo rápido hoje. Cada tópico que você domina é para sempre.
+
+
+---
+
+_Atualizado em: 2026-09-19_

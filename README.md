@@ -235,6 +235,7 @@
 roadmap-rust/
 ├── README.md                    ← este arquivo (checklist geral)
 | ├── roadmap_rust_supremo.md      ← guia completo com 100+ tópicos (REFERÊNCIAS + MATERAIS)
+├── VAGAS.md                       ← 50 vagas no mercado, habilidades e projetos recomendados
 ├── nivel-1-iniciante/
 │   ├── 01-cli.md
 │   ├── 02-sqlite.md
